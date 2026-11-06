@@ -1,4 +1,4 @@
-﻿<Configuration>
+<Configuration>
   <Add OfficeClientEdition="64" Channel="Current">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us" />
@@ -13,6 +13,5 @@
       <ExcludeApp ID="Teams" />
     </Product>
   </Add>
-  <Display AcceptEULA="true" />
-  <Extend Module="1" />
+  <Display Level="Full" AcceptEULA="TRUE" />
 </Configuration>
